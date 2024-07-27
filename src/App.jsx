@@ -12,7 +12,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* Navigation error in md */}
       <div className="flex flex-col md:flex-row justify-between px-6 md:px-12 lg:px-24 bg-[#3A4026] pb-4 pt-8">
         <div>
           <img src={logo} alt="Logo" />
@@ -29,7 +28,7 @@ function App() {
         </div>
       </div>
 
-      {/* Problem in 1024*/}
+     
       <div className="flex flex-col lg:flex-row justify-between px-6 md:px-12 lg:px-24 bg-[#3A4026] py-12 md:py-24">
         <div className="lg:w-2/3">
           <div className="text-white font-semibold text-4xl sm:text-5xl lg:text-7xl work-sans">
@@ -64,7 +63,7 @@ function App() {
         </div>
       </div>
 
-      {/* Problem in 1024*/}
+     
       <div className="bg-[#868C70]">
         <div className="bg-[#5F6647] mx-6 md:mx-12 lg:mx-24 rounded-b-3xl py-10 lg:py-20">
           <div className="text-center text-white font-semibold text-3xl sm:text-4xl lg:text-5xl work-sans">
@@ -116,7 +115,7 @@ function App() {
         </div>
       </div>
 
-      {/* Problem in 1024*/}
+      
       <div className="bg-[#7A8066] px-6 md:px-12 lg:px-24 py-12 lg:py-24">
         <div className="flex flex-col lg:flex-row justify-between">
           <div>
@@ -211,7 +210,7 @@ function App() {
         </div>
       </div>
 
-      {/* Problem in 1024*/}
+      
       <div className="bg-[#7A8066] px-6 py-12 md:px-24 md:py-24">
         <div className="flex flex-col lg:flex-row justify-between">
           <div>
